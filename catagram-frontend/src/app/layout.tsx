@@ -16,7 +16,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className=" bg-[#FAF9F9}">
+      <body
+        style={{
+          backgroundImage: "url('bg.png')",
+        }}>
+        <div
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            width: "100vw",
+            height: "100vh",
+            backgroundColor: "rgba(255, 255, 255, 0.95)",
+            zIndex: 0,
+          }}></div>
         <div className="flex">
           <Navbar />
           {children}
