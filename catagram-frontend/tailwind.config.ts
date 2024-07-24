@@ -5,6 +5,7 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     extend: {
@@ -14,10 +15,15 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily:{
-        custom:["Lobster", "sans-serif"],
+        logotext:["Lobster", "sans-serif"],
+        inter : ["Inter", "sans-serif"],
+        kanit : ["Kanit", "sans-serif"],
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+],
+
 };
 export default config;
