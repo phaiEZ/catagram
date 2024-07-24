@@ -14,19 +14,19 @@ export const Navbar = () => {
             href={"/"}
             className="text-2xl flex items-center gap-2 rounded-md hover:bg-[#FEAAAA] px-4 py-2 mx-2 transition delay-50 ease-in-out">
             <GoHomeFill />
-            <div className="text-xl">Home</div>
+            <div className="text-xl font-kanit">Home</div>
           </Link>
           <Link
             href={"#"}
             className="text-2xl flex items-center gap-2 rounded-md hover:bg-[#FEAAAA] px-4 py-2 mx-2 transition delay-50 ease-in-out">
             <GoSearch />
-            <div className="text-xl">Search</div>
+            <div className="text-xl font-kanit">Search</div>
           </Link>
           <Link
             href={"/profile"}
             className="text-2xl flex items-center gap-2 rounded-md hover:bg-[#FEAAAA] px-4 py-2 mx-2 transition delay-50 ease-in-out">
             <GoPersonFill />
-            <div className="text-xl">Profile</div>
+            <div className="text-xl font-kanit">Profile</div>
           </Link>
         </div>
       </div>
