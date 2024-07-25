@@ -5,6 +5,8 @@ import { Image } from "./Image";
 import { FaFacebook, FaHeart } from "react-icons/fa6";
 import { LuCat } from "react-icons/lu";
 import { PiCatDuotone } from "react-icons/pi";
+import { MeowCardBtn } from "./MeowCardBtn";
+import { LikeBtn } from "./LikeBtn";
 export const CatProfile = () => {
   return (
     <div className="flex flex-col p-12 gap-8 z-30">
@@ -79,20 +81,12 @@ export const CatProfile = () => {
       </div>
       <div>
         <div className="flex items-center gap-4 ml-8">
-          <div className="flex items-center gap-4">
-            <FaHeart className="text-5xl text-[#B18C82]" />
-            <div className=" font-kanit text-2xl font-bold text-[#B18C82]">
-              {1000}
-            </div>
-          </div>
+          <LikeBtn />
 
-          <div className="font-kanit border-slate text-sm border-2 px-4 py-2.5 rounded-md flex items-center gap-2 bg-white">
-            <PiCatDuotone className=" text-2xl text-blue-700" />
-            <div className=" "> Meow Card</div>
-          </div>
+          <MeowCardBtn />
           <div className="font-kanit border-slate text-sm border-2 px-4 py-2.5 rounded-md flex items-center gap-2 bg-white">
             <FaFacebook className=" text-2xl text-blue-700" />
-            <div className=" ">page name</div>
+            <div>page name</div>
           </div>
         </div>
       </div>
