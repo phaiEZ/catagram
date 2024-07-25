@@ -105,10 +105,7 @@ export const CatProfile = () => {
           img="https://media.discordapp.net/attachments/1111754976969109564/1113529746731569282/CAF0E0DD-B406-4CF0-8BD0-B57B1AA0270C.jpg?ex=66a294e4&is=66a14364&hm=5c1d33c9882a6a7aba7c00c76073ed43fd037d87a13ddb1c77055264ca1ab015&=&format=webp&width=380&height=675"
           description={"คุณมากิติดอยู่บนตู้"}
         />
-        <Image
-          img="https://media.discordapp.net/attachments/1111754976969109564/1130139273753022554/IMG_1577.jpg?ex=66a25cb7&is=66a10b37&hm=9ed0d75fd1910db95c779562fa8b3c53e06d12b644c2bb56c5db3c2672defc1f&=&format=webp&width=466&height=350"
-          description={"คุณมากิติดอยู่บนตู้"}
-        />
+
         <Image
           img="https://media.discordapp.net/attachments/1111754976969109564/1130139342912893018/IMG_1516.jpg?ex=66a25cc8&is=66a10b48&hm=ce5f044d7d5da0ddd11417994cd6735fc51f857a25f51db937c5fd78c1dce746&=&format=webp&width=263&height=350"
           description={"คุณมากิติดอยู่บนตู้"}
